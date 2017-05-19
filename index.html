@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Animacja</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="circle"></div>
+        <button>Zakręć</button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $('button').on('click', function(){
+                $('.circle').toggleClass('active');
+            })
+        </script>
+    </body>
+</html>

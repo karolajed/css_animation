@@ -1,0 +1,32 @@
+.circle {
+    
+    width: 40vh;
+    height: 40vh;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border-bottom: 120px solid #b95dab;
+    border-left: 120px solid #ad389b;
+    border-right: 120px solid #ad389b;
+    border-top: 120px solid #b95dab;
+    margin 20px auto;
+    transition: transform 7s cubic-bezier(.72, .28, .5, 1.2), border 3s cubic-bezier(1, .09, .58, 1);
+}
+
+.active {
+    transform: rotate(13600deg);
+    border-bottom-color: #712fb2;
+    border-left-color: #8656b5;
+    border-right-color: #8656b5;
+    border-top-color: #712fb2;
+}
+
+button {
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+    width: 77vh;
+    height: 100px;
+    margin: 20px auto;
+    border: none;
+}
